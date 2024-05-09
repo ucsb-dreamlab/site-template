@@ -10,8 +10,7 @@ create a new repository with the project files.
 
 ## Enabling GitHub Pages for your repo
 
-In your repository __Settings__, navigate to the [__Pages__](settings/pages) tab, and
-set the following options:
+In your repository __Settings__, navigate to the __Pages__ tab, and set the following options:
 
 - __Source__ should be set to "Deploy from a branch"
 - __Branch__ should be set to "main" and the folder should be "/ (root)"
@@ -21,7 +20,7 @@ It may take a few minutes for the GitHub Pages Action to build and deploy your s
 ## Using your new site
 
 Without any modifications, the site's front page ([`index.md`](index.md))
-displays a lists 'posts' and their descriptions. The [example post](_posts/2024-05-08-testpost.md)  
+displays a lists 'posts' and their descriptions. The [example post](_posts/2024-05-08-testpost.md)
 describes the process for creating new posts.
 
 If you prefer a single-page site, without any posts, you can replace the existing
