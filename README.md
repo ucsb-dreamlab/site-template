@@ -8,11 +8,25 @@ theme.
 Click the "Use this template" button at the top of the page to
 create a new repository with the project files. 
 
+## Enabling GitHub Pages for your repo
+
+In your repository __Settings__, navigate to the [__Pages__](settings/pages) tab, and
+set the following options:
+
+- __Source__ should be set to "Deploy from a branch"
+- __Branch__ should be set to "main" and the folder should be "/ (root)"
+
+It may take a few minutes for the GitHub Pages Action to build and deploy your site.
+
 ## Using your new site
 
-For single page sites, add your page content to [`index.md`](index.md). GitHub
-Pages uses [markdown](https://commonmark.org/help/) to convert the contents of
-the file to HTML. 
+Without any modifications, the site's front page ([`index.md`](index.md))
+displays a lists 'posts' and their descriptions. The [example post](_posts/2024-05-08-testpost.md)  
+describes the process for creating new posts.
+
+If you prefer a single-page site, without any posts, you can replace the existing
+content of `index.md` with your new page content. GitHub Pages uses 
+[markdown](https://commonmark.org/help/) to convert the contents of the file to HTML. 
 
 You can upload images and other files to the [`assets`](assets)
 folder and include them in your page using markdown like this:
@@ -24,7 +38,6 @@ Image:
 File link:
 [CSV file](/assets/my-file.csv)
 ```
-
 
 ## Customizing your site
 
